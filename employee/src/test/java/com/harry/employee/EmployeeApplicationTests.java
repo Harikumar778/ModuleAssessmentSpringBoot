@@ -27,6 +27,7 @@ class EmployeeApplicationTests {
 		  Assertions.assertNotEquals(empdao, null);
 	}
 	
+	@Test
 	 void checkAddEmp()
 	    {
 	        Employee emp = new Employee("Sneha",350000,"Manager");
